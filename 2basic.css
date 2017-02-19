@@ -1,0 +1,35 @@
+
+	h1 {
+		font-family: arial, courier;
+		font-size: 30pt;
+		background-color: white;
+		text-align:center;
+	}
+	
+	p,h3.italics {
+		text-style: italic;
+	}
+		
+
+	ul {
+		list-style-type:square;
+		width:18%;
+	} 
+
+	body {
+		margin-left:100pt;
+		margin-right:100pt;
+		color: black;
+		background-image: url("abstract-ice-wallpaper-19666-20162-hd-wallpapers.jpg"); 
+		background-attachment:fixed;
+	}
+
+	img {
+		border-color: navy;
+		border-width: 2pt;
+		padding: 1%;
+		margin: 40pt;
+	}
+
+	p.lyrics {
+		

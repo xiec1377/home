@@ -1,36 +1,64 @@
 
-h1 {
-	font-family: arial, courier;
-	font-size: 30pt;
-	background-color: white;
-	text-align:center;
-ul {
-	list-style-type:square;
-	width:18%;
-} 
-
-body {
-	margin-left:100pt;
-	margin-right:100pt;
-	background-repeat: no-repeat;
-	background-attachment:fixed;
-	color: black;
+	h1 {
+		font-family: courier;
+		font-size: 30pt;
+		background-color: white;
+		text-align:center;
+	}
 	
-}
+	#italics {
+		text-style: italics;
+	}
+		
 
-div {
-	background-image: url("abstract-ice-wallpaper-19666-20162-hd-wallpapers.jpg"); 
-}
-
-img {
-	border-color: navy;
-	border-width: 2pt;
-	padding: 1%;
-	margin: 40pt;
-}
-
-h1 { 
-	font-size:30px;
-	font-family:courier, times new roman;
+	#list { 
+		width: 18%;
+		margin:auto;
+		list-style-type: square;
+	}
 	
-}
+	/*idk*/ #margin {
+		float: left;
+	}
+
+	body {
+		margin-left:100pt;
+		margin-right:100pt;
+		color: black;
+		background-image: url("abstract-ice-wallpaper-19666-20162-hd-wallpapers.jpg"); 
+		background-attachment:fixed;
+		font-family: "times new roman";
+		font-size:15pt;
+	}
+
+	.border {
+		margin: 10%;
+		float: right; 
+	}
+	
+	.height {
+		margin-top: 11%; 
+	}
+	
+	#height2 {
+		margin-top: 22%;
+	}
+	
+	.height3 {
+		margin-top: 34%;
+	}
+	
+	.lyrics {
+		height: 10pt;
+	}
+	
+	.top, h2, h3 {
+		margin-top: 8%;
+	}
+	
+	h4 {
+		font-size: 16pt;
+	}
+	
+
+		
