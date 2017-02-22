@@ -1,15 +1,49 @@
 
+	/*head*/
 	h1 {
-		font-family: courier;
+		color: white;
+		font-family: courier,"times new roman";
 		font-size: 30pt;
-		background-color: white;
-		text-align:center;
+		text-align: center;
+	}
+	
+
+	body {
+		margin-left:100pt;
+		margin-right:100pt;
+		color: #F5F5F5;
+		font-family: "times new roman";
+		font-size:15pt;
+		background-image: url("background1.PNG");
+		background-repeat: no-repeat; 
+		background-attachment:fixed;
+		background-size: cover;
+	}
+	
+	h2 {
+		background-image: url("2c1f3377b2e3f28a0d8913b3c19ed312.jpg");
+		background-size: 150px 150px;
+	}
+	
+	#margin-top {
+		margin-top: 10%;
+	}
+	
+	h3 {
+		background-color: red;
+	}
+	
+	/*no*/table {
+		border:none;
 	}
 	
 	#italics {
-		text-style: italics;
+		font-style: italic;
 	}
-		
+	
+	/*fix*/ #no-italics {
+		font-style: none; 
+	}
 
 	#list { 
 		width: 18%;
@@ -17,48 +51,76 @@
 		list-style-type: square;
 	}
 	
-	/*idk*/ #margin {
+	/*fix*/ #logo-margin {
+		margin: 1pt;
 		float: left;
+		
 	}
-
-	body {
-		margin-left:100pt;
-		margin-right:100pt;
+		
+	#black {
 		color: black;
-		background-image: url("abstract-ice-wallpaper-19666-20162-hd-wallpapers.jpg"); 
-		background-attachment:fixed;
-		font-family: "times new roman";
-		font-size:15pt;
 	}
-
+	
+	img, iframe {
+		margin: none;
+		margin: 5px 5px 5px 55px;
+	}
+	
 	.border {
 		margin: 10%;
 		float: right; 
+		border-color: #ccffff;
+		border-style: double;
+		border-width: 5%;
+		padding: 0.5%;
+		
 	}
 	
 	.height {
-		margin-top: 11%; 
-	}
-	
-	#height2 {
-		margin-top: 22%;
-	}
-	
-	.height3 {
-		margin-top: 34%;
+		margin-top: 15%; 
 	}
 	
 	.lyrics {
 		height: 10pt;
 	}
-	
-	.top, h2, h3 {
+
+	.top, h2 {
 		margin-top: 8%;
 	}
+	
+	.top2, h3, h4 {
+		margin-top: 5%;
+		margin-bottom: 2%;
+	} 
 	
 	h4 {
 		font-size: 16pt;
 	}
+	
+	a:link {
+		color: #96edff;
+		text-decoration:none;
+	}
+	
+	a:visited {
+		color: rgb(255, 204, 213);
+		text-decoration: none;
+	}
+	
+	a:hover {
+		color:rgb(237, 255, 178);
+		text-decoration: underline;
+	}
+	
+	/*idk*/ .center {
+		margin:auto;
+	}
+	
+	.font-larger {
+		font-size: 16pt;
+		margin-bottom: 10pt;
+	}
+		
 	
 
 		
