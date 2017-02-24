@@ -1,0 +1,151 @@
+
+	.centre { /*Properties of the YOI logo*/
+		margin-top: 10px;
+		margin-bottom: 10px;
+		margin-left: 335px;
+		
+	}
+	
+
+	body {
+		margin-left:100pt;
+		margin-right:100pt;
+		margin-top: 0pt;
+		color: #ffffb3;
+		font-family: Garamond, "times new roman";
+		font-size:15pt;
+		background-image: url("background1.PNG");
+		background-repeat: no-repeat; 
+		background-attachment:fixed;
+		background-size: cover;
+	}
+	
+	#nav {
+		padding: 0px; /*How much of the background colour you want to be the link background.*/
+		text-align: center;
+		white-space: nowrap;
+		width: 100%;
+		top: 35%;
+		left: 0px;
+		position: absolute; 
+		background-color: white;
+		list-style-type: none;
+	}
+	
+	#nav li a {
+		color: black;
+		padding: 15px; /*The thickness of the navigation bar.*/
+		font-family: Garamond, "times new roman";
+		text-decoration: none;
+		font-size: 25px;
+		display: block;
+		}
+		
+	#nav li {
+		display: inline-block; 
+		overflow: hidden;
+	}
+		
+	#nav li a:hover /*The colour of the link when the cursor hovers over.*/ {
+		color: white; 
+		background-color: #9999ff; 
+	}
+	
+	h2 {
+		background-image: url("2c1f3377b2e3f28a0d8913b3c19ed312.jpg");
+		background-size: 15%; 
+		color: rgb(0, 51, 153);
+		text-align: center;
+	}
+	
+	#margin-top {
+		margin-top: 20%;
+	}
+	
+	
+	.italics {
+		font-style: italic;
+		margin-top: 7%;
+	}
+	
+	ul {
+		list-style-type: square;
+	}
+
+	img, embed {
+		margin: 5px 5px 5px 55px;
+	}
+
+	#list { 
+		width: 18%;
+		margin:auto;
+		list-style-type: square;
+	}
+	
+		
+	#black {
+		color: black;
+	}
+
+	
+	.border { /*The properties of the character's images' borders*/
+		margin: 10%;
+		float: right; 
+		border-color: #ccffff;
+		border-style: double;
+		padding: 0.5%;
+		
+	}
+	
+	.height {
+		margin-top: 15%; 
+	}
+	
+	.lyrics {
+		height: 10pt;
+	}
+
+	#top, h2 {
+		margin-top: 7%;
+	}
+	
+	.top2, h3, h4 {
+		margin-top: 5%;
+		margin-bottom: 2%;
+	} 
+	
+	a:link {
+		color: rgb(51, 153, 102);
+		text-decoration:none;
+	}
+	
+	a:visited {
+		color: #99ffcc;
+		text-decoration: none;
+	}
+	
+	a:hover {
+		color:rgb(237, 255, 178);
+		text-decoration: underline;
+	}
+	
+	img { 
+		left: 50%;
+		
+	}
+	
+	.font-larger {
+		font-size: 16pt;
+		margin-bottom: 10pt;
+	}
+
+	.down {
+		margin-top: 100px;
+		margin-bottom: 5px;
+		margin-left: 425px;
+	}
+	
+
+
+
+		
